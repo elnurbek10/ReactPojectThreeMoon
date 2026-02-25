@@ -4,3 +4,82 @@
     box-sizing: border-box;
 }
 
+.main-div{
+    padding-left: 20vw;
+    margin-top: 5vw;
+}
+
+.main-img{
+width: 80vw;
+margin-left: 10vw;
+margin-top: 10vw;
+}
+.p1{
+    width: 62vw;
+    font-size: 1.5vw;
+    color: #525C60;
+
+}
+.h1-1{
+    font-size: 3.4vw;
+    color: #274C5B;
+}
+main{
+    width: 100%;
+    overflow-x: hidden;
+
+}
+.main2-div>div>div>p{
+    width: 25vw;
+    font-size: 1.25vw;
+    color: #525C60;
+}
+.main2-div>div>div>h3{
+    font-size: 2vw;
+    margin-bottom: 0.5vw;
+    color: #274C5B;
+}
+.main2-div>div>div{
+    width: 34vw;
+    height: 16vw;
+    padding-left: 3vw;
+    align-content: center;
+    background-color: #F9F8F8;
+    padding-top: 1vw;
+    border-radius: 12px;
+
+}
+.main2-div-1{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.main2-div>div>img{
+    width: 25vw;
+    height: 16vw;
+}
+.main2-div{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 2vw;
+}
+.main2-div-p{
+    width: 61vw;
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+    color: #525C60;
+   
+}
+.main2-div-h1{
+    font-size: 3vw;
+     color: #274C5B;
+}
+.main2-div-3{
+    display: flex;
+    gap: 3vw;
+}
+.main2-div-3>img{
+    width: 28vw !important;
+    height: 5vw !important;
+}
