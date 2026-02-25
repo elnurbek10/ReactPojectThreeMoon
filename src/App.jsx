@@ -1,6 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
+
 // Elnurbek
 import Organik from './pages/Elnurbek/Organik/organik';
 import About from './pages/Elnurbek/About/About';
