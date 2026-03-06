@@ -7,74 +7,185 @@
 nav{
 display: flex;
 align-items: center;
-padding: 30px;
-padding-left: 40px;
+padding: 2.5vw;
+padding-left: 3.1vw;
 width: 100vw;
 }
 
 .nav-1{
     display: flex;
-    gap: 50px;
+    gap: 3vw;
     align-items: center;
 }
-
+.logo{
+    width: 13vw;
+    height: 5vw;
+}
 select{
     border: none;
-    background-color: whitesmoke;
+    background-color: white;
+    font-size: 1.3vw;
+    font-weight: 800;
+}
+.nav-1>p{
+font-size: 1.3vw;
+font-weight: 800;
 }
 .icon-1{
-    width: 40px;
-    height: 40px;
+    width: 2.7vw;
+    height: 2.7vw;
     background-color: #7EB693;
-    border-radius: 60px;
+    border-radius: 3.2vw;
     text-align: center;
-   padding: 8px;
-    margin-left: 10px;
+   padding: 0.6vw;
+    margin-left: 9.7vw;
+ 
  
  
 }
 .icon-2{
-    width: 40px;
-    height: 40px;
+    width: 2.7vw;
+    height: 2.7vw;
     background-color: #274C5B;
-    border-radius: 60px;
+    border-radius: 3.2vw;
     text-align: center;
-   padding: 8px;
-   margin-left: 30px;
-   margin-top: 2px;
+   padding: 0.6vw;
+   margin-left: 0vw;
+
 }
 
 .icon-cont1{
 
-    margin-top: 1px;
-    width: 200px;
-    height: 45px;
+    margin-top: 0.1vw;
+    width: 13vw;
+    height: 3.5vw;
     align-items: center;
-    padding-top: 2px;
-    border: 1px solid ;
- 
-    border-radius: 50px;
+padding-top: 0.3vw;
+    border: 0.1vw solid ;
+ align-content: center;
+    border-radius: 5vw;
 }
 
 .div-2{
     display: flex;
     align-items: center;
-    gap: 50px;
-    margin-left: 150px;
+    gap: 2.8vw;
+    margin-left: 9vw;
 }
 .icon-cont2{
 
-    margin-top: 1px;
+    margin-top: 0.1vw;
 
-    width: 100px;
-    height: 45px;
+    width: 8.5vw;
+    padding: 0.2vw;
+    height: 3.5vw;
     align-items: center;
-    padding-top: 2px;
-    border: 1px solid ;
-    padding-left: 20px;
-    border-radius: 50px;
+    padding-top: 0.4vw;
+    border: 0.1vw solid ;
+
+    border-radius: 5vw;
     display: flex;
+}
+.icon-cont2>b{
+    font-size: 1.4vw;
 }
 nav{
     width: 100vw;
+}
+
+@media(max-width:520px){
+    
+nav{
+display: flex;
+align-items: center;
+padding: 2.5vw;
+padding-left: 3.1vw;
+width: 100vw;
+gap: 11vw;
+}
+
+.nav-1{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    width: 19vw;
+    height: 6vw;
+}
+select{
+    border: none;
+    background-color: white;
+    font-size: 3.3vw;
+    font-weight: 400;
+    text-align: start;
+}
+.nav-1>p{
+font-size: 3.3vw;
+font-weight: 400;
+text-align: start;
+}
+.icon-1{
+    width: 6.1vw;
+    height: 5.4vw;
+   
+    background-color: #7EB693;
+    border-radius: 3.2vw;
+    text-align: center;
+   padding: 0.6vw;
+    margin-left: 16.1vw;
+    margin-top: 0.2vw;
+ 
+ 
+ 
+}
+.icon-2{
+    width: 6.7vw;
+    height: 5.4vw;
+    background-color: #274C5B;
+    border-radius: 3.2vw;
+    text-align: center;
+   padding: 0.4vw;
+  
+   margin-top: 0.1vw;
+}
+
+.icon-cont1{
+
+    margin-top: 0.1vw;
+    width: 23vw;
+    height: 6.5vw;
+    align-items: center;
+    padding-top: 0.2vw;
+    border: 0.1vw solid ;
+ align-content: center;
+    border-radius: 5vw;
+}
+
+.div-2{
+    display: flex;
+    align-items: center;
+    gap: 2.8vw;
+    margin-left: 9vw;
+}
+.icon-cont2{
+
+    margin-top: 0.1vw;
+display: flex;
+    width: 15.5vw;
+    height: 6.5vw;
+    align-items: center;
+    padding-top: 0.9vw;
+    border: 0.1vw solid ;
+ 
+    border-radius: 5vw;
+    display: flex;
+}
+.icon-cont2>b{
+    font-size: 2.2vw;
+}
+nav{
+    width: 100vw;
+}
 }

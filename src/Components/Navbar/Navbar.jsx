@@ -6,7 +6,7 @@ import { CiSearch } from "react-icons/ci";
 import Aos from 'aos';
 import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
-
+import 'aos/dist/aos.css';
 function Navbar() {
  
   const navigate = useNavigate();
@@ -43,7 +43,6 @@ function Navbar() {
       <option value="/service">Service</option>
       <option value="/ssingle">service single</option>
       <option value="/portfolio">Portfolio</option>
-      <option value="/psingle">single portfolio</option>
       <option value="/team">Team</option>
       <option value="/blog">Blog</option>
       <option value="/bsingle">Blog single</option>
@@ -54,8 +53,8 @@ function Navbar() {
       <option value="/pprotect">Password Protect</option>
     </select>
         <p> <Link style={{textDecoration:"none", color:"black",}} to={'/shop'}>Shop</Link> </p>
-        <p>Projects</p>
-        <p>News</p>
+       <p> <Link style={{textDecoration:"none", color:"black",}} to={'/Project'}>Project</Link> </p>
+       <p> <Link style={{textDecoration:"none", color:"black",}} to={'/News'}>News</Link> </p>
           
   
   
@@ -63,7 +62,7 @@ function Navbar() {
             
                    <div className="div-2">
          <div className='icon-cont1'> <CiSearch size={21} color='white' className='icon-1'/></div>
-            <div className="icon-cont2"><div className="icon-3"><SlBasket color='white' className='icon-2'/></div></div> </div>    
+            <div className="icon-cont2"><div className="icon-3"><SlBasket color='white' className='icon-2'/></div><b>Card(0)</b></div> </div>    
         </nav>
     </>
   );

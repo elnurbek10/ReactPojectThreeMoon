@@ -13,7 +13,7 @@ function Ssingle() {
       <Navbar />
       <Banner string="Quality Standard" clas="ssingle-banner" />
       <section className="s-single-section-1">
-        <img className='main-img' src={mainimg} alt="" />
+        <img  className='main-img'  src={mainimg} alt="" />
         <div className="main-div">
           <div className="main1-div">
             <h1 className='h1-1'>Organic Store Services</h1>
@@ -25,19 +25,19 @@ function Ssingle() {
           <div className="main2-div">
             <div className='main2-div-1'>
               <img src={s1} alt="" />
-              <div>
+              <div className='main-div-div'>
                 <h3>Why Organic</h3>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat. page editors now use Lorem Ipsum as their default model text, and auncover.</p>
               </div>
             </div>
             <div className='main2-div-1'>
-              <div >
+              <div className='main-div-div'>
                 <h3>Speciality Produce</h3>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat. page editors now use Lorem Ipsum as their default model text, and auncover.</p>
               </div>
               <img src={s2} alt="" />
             </div>
-            <div className='main2-div-2'>
+            <div className='main2-div-2' >
               <h1 className='main2-div-h1'>
 We farm your land
               </h1>
