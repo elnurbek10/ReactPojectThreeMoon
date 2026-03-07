@@ -4,3 +4,162 @@
     box-sizing: border-box;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.AsosiyYy {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .SaHiFaH {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .KaRtOcK {
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 30px 20px;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .KaRtOcK:hover {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+  }
+  
+  .TuRrRfF {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: #274c5b;
+    color: #ffffff;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .SuRaTtt {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .SuRaTtt img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .MaTnlArR {
+    padding-top: 10px;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .NoMiIiI {
+    color: #274c5b;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .PaStKii {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .NaRxlArR {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .EsKiNnN {
+    color: #b8b8b8;
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .YaNgInN {
+    color: #274c5b;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  
+  .YuLdUzZ {
+    color: #ffa800;
+    font-size: 14px;
+  }
+  
+  .ooobunaaa{
+    background-image: url(../../assets/Background.svg);
+  }
+  @media screen and (max-width: 500px) {
+    .AsosiyYy {
+      padding: 30px 15px;
+    }
+  
+    .SaHiFaH {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  
+    .KaRtOcK {
+      padding: 20px;
+      border-radius: 20px;
+    }
+  
+    .TuRrRfF {
+      top: 15px;
+      left: 15px;
+      font-size: 12px;
+      padding: 4px 10px;
+    }
+  
+    .SuRaTtt {
+      height: 200px;
+      margin-bottom: 5px;
+    }
+  
+    .NoMiIiI {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+  
+    .YaNgInN {
+      font-size: 14px;
+    }
+  
+    .EsKiNnN {
+      font-size: 12px;
+    }
+  
+    .YuLdUzZ {
+      font-size: 12px;
+    }
+  
+    .ooobunaaa {
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  

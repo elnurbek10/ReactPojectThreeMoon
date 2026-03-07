@@ -272,7 +272,9 @@
   font-size: 20px; 
   margin-bottom: 5px; 
 }
-
+.ong{
+  margin-left: 70px;
+}
 .inf p { 
   color: #525C60; 
   font-size: 14px; 
