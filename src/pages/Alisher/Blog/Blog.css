@@ -4,3 +4,149 @@
     box-sizing: border-box;
 }
 
+.blog-vitamin-d{
+    background-image: url("../../../assets/Photo\ \(19\).png");
+}
+.card-b{
+    width: 43vw;
+    height: 35vw;
+    border-radius: 1.2vw;
+    background-size: cover;
+}
+.blog-summertime-tomato{
+    background-image: url("../../../assets/Photo\ \(20\).png");
+}
+.blog-vitamin-c{
+    background-image: url("../../../assets/photo\ 21.png");
+}
+.blog-organic-foods{
+    background-image: url("../../../assets/photo\ 22.png");
+}
+.blog-fresh-fruits{
+    background-image: url("../../../assets/photo\ 23.png");
+}
+.blog-no-plastic{
+    background-image: url("../../../assets/photo\ 24.png");
+}
+.card-b>img{
+    width: 6vw;
+    height: 6vw;
+}
+.blog-2>b{
+display: flex;
+align-items: center;
+font-size: 1.5vw;
+}
+.blog-2>h1{
+    font-size: 1.8vw;
+}
+.blog-2>h3{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1.4vw;
+}
+.b-p1{
+    font-size: 1.4vw ;
+  
+}
+.blog-2{
+    width: 37vw;
+    background-color: aliceblue;
+    margin-left: 2.7vw;
+    height: 15vw;
+    padding-top: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    padding-left: 2vw;
+    border-radius: 1.4vw;
+    position: absolute;
+    margin-top: 19vw;
+}
+.section-blog{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 4vw;
+    margin-left: 4.5vw;
+}
+.flaw{
+    margin-top: 8vw;
+   
+}
+
+@media(max-width:520px){
+    
+
+.blog-vitamin-d{
+    background-image: url("../../../assets/Photo\ \(19\).png");
+}
+.card-b{
+    width: 83vw;
+    height: 40vw;
+    border-radius: 1.2vw;
+    background-size: cover;
+}
+.blog-summertime-tomato{
+    background-image: url("../../../assets/Photo\ \(20\).png");
+}
+.blog-vitamin-c{
+    background-image: url("../../../assets/photo\ 21.png");
+}
+.blog-organic-foods{
+    background-image: url("../../../assets/photo\ 22.png");
+}
+.blog-fresh-fruits{
+    background-image: url("../../../assets/photo\ 23.png");
+}
+.blog-no-plastic{
+    background-image: url("../../../assets/photo\ 24.png");
+}
+.card-b>img{
+    width: 10vw;
+    height: 10vw;
+}
+.blog-2>b{
+display: flex;
+align-items: center;
+font-size: 2.5vw;
+}
+.blog-2>h1{
+    font-size: 2.8vw;
+}
+.blog-2>h3{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-size: 2.6vw;
+}
+.b-p1{
+    font-size: 2.6vw ;
+  
+}
+.blog-2{
+    width: 77vw;
+    background-color: aliceblue;
+    margin-left: 2.7vw;
+    height: 22vw;
+    padding-top: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    padding-left: 2vw;
+    border-radius: 1.4vw;
+    position: absolute;
+    margin-top: 16vw;
+}
+.section-blog{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 4vw;
+    margin-left: 9.5vw;
+    margin-bottom: 20vw;
+}
+.flaw{
+    margin-top: 8vw;
+   
+}
+}

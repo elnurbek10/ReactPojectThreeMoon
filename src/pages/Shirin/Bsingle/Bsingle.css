@@ -4,3 +4,167 @@
     box-sizing: border-box;
 }
 
+.bsingle-img{
+    width: 100%;
+    height: 40vw;
+    margin-bottom: 15vw;
+}
+.bdiv-1>p{
+width: 57vw;
+font-size: 2vw;
+color: #525C60;
+}
+.bdiv-1>b{
+font-size: 2vw;
+color: #525C60;
+}
+.bdiv-1>h1{
+font-size: 3.6vw;
+color: #274C5B;
+}
+.person{
+    width: 1.5vw;
+    height: 1.5vw;
+    color: rgba(0, 154, 44, 0.823);
+    margin-left: 2vw;
+}
+.bdiv-1{
+    position: absolute;
+    width: 70vw;
+    background-color: white;
+    height: 28vw;
+    align-content: center;
+    margin-top: 19vw;
+    margin-left: 15vw;
+    border-radius: 2vw;
+    box-shadow: 0.1vw 0vw 2vw rgb(181, 181, 181) ;
+    padding-left: 5vw;
+   
+}
+.section-bsingle{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.section-bsingle>p{
+    font-size: 1.8vw;
+    width: 70vw;
+    color: #525C60;
+}
+.section-bsingle>h1{
+    font-size: 3.1vw;
+    color: #274C5B;
+}
+.section-bsingle>div{
+    width: 60vw;
+    height: 18vw;
+    align-content: center;
+    background-color: #F1EDEA;
+     border-radius: 1.5vw;
+     padding: 2vw;
+}
+.section-bsingle>div>b{
+    font-size: 1.9vw;
+    color: #525C60;
+   
+}
+ol>li{
+    font-size: 1.9vw;
+    list-style: decimal;
+   
+}
+ul>li{
+    
+    font-size: 1.9vw;
+
+  
+}
+.section-bsingle{
+    margin-left: 16vw;
+    text-align: start;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 4vw;
+  color: #525C60;
+}
+ol{
+    padding-left: 4vw;
+    color: #525C60;
+}
+@media(max-width:520px){
+    
+.bsingle-img{
+    width: 100%;
+    height: 40vw;
+    margin-bottom: 15vw;
+}
+.bdiv-1>p{
+width: 80vw;
+font-size: 2.4vw;
+}
+.bdiv-1>b{
+font-size: 2vw;
+}
+.bdiv-1>h1{
+font-size: 3.6vw;
+}
+.bdiv-1{
+    position: absolute;
+    width: 90vw;
+    background-color: white;
+    height: 28vw;
+    align-content: center;
+    margin-top: 19vw;
+    margin-left: 5vw;
+    border-radius: 2vw;
+    box-shadow: 0.1vw 0vw 2vw rgb(181, 181, 181) ;
+    padding-left: 5vw;
+   
+}
+.section-bsingle{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.section-bsingle>p{
+    font-size: 3.2vw;
+    width: 90vw;
+}
+.section-bsingle>h1{
+    font-size: 4.1vw;
+}
+.section-bsingle>div{
+    width: 80vw;
+    height: 25vw;
+    align-content: center;
+    background-color: #F1EDEA;
+     border-radius: 1.5vw;
+     padding: 2vw;
+}
+.section-bsingle>div>b{
+    font-size: 1.9vw;
+   
+}
+ol>li{
+    font-size: 3.1vw;
+    list-style: decimal;
+   
+}
+ul>li{
+    
+    font-size: 3.1vw;
+  
+}
+.section-bsingle{
+    margin-left: 6vw;
+    text-align: start;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 4vw;
+}
+ol{
+    padding-left: 4vw;
+}
+}

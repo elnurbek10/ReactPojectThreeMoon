@@ -59,8 +59,9 @@ function Organik() {
 
     return (
         <>
+          <Navbar />
             <div className="outer">
-              <Navbar />
+              
 
                 <section className="kat">
                     <div className="ich">

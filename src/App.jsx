@@ -29,7 +29,7 @@ function App() {
     <>
     <Routes>
       {/* Elnurbek */}
-      <Route path="/organik" element={<Organik />} />
+      <Route path="/" element={<Organik />} />
       <Route path="/about" element={<About />} />
       <Route path="/service" element={<Service />} />
       <Route path="/shop" element={<Shop />} />
@@ -38,13 +38,14 @@ function App() {
       {/* Alisher */}
       <Route path="/blog" element={<Blog />} />
       <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/psingle" element={<Psingle />} />
+      <Route path="/psingle/:id" element={<Psingle/>} />
       <Route path="/ssingle" element={<Ssingle />} />
       <Route path="/team" element={<Team />} />
 
       {/* Shirin */}
       <Route path="/bsingle" element={<Bsingle />} />
       <Route path="/changelog" element={<Changelog />} />
+        <Route path="/bsingle/:id" element={<Bsingle/>} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/licenses" element={<Licenses />} />
       <Route path="/pprotect" element={<Pprotect />} />
