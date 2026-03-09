@@ -3,6 +3,7 @@ import Navbar from '../../../Components/Navbar/Navbar';
 import Newslatter from '../../../Components/Newslatteer/Newslatter';
 import Banner from '../../../Components/Banner/Banner';
 import multiply from '../../../assets/multiply.png'
+import Footer from '../../../Components/Footer/Footer';
 function Changelog() {
   return (
     <main>
@@ -16,6 +17,7 @@ function Changelog() {
         </div>
       </section>
       <Newslatter/>
+      <Footer/>
     </main>
   );
 }

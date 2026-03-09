@@ -7,6 +7,7 @@ import icon1 from '../../../assets/Icon (1).png'
 import { useNavigate } from 'react-router-dom';
 import Aos from 'aos';
 import { useEffect } from 'react';
+import Footer from '../../../Components/Footer/Footer';
 function Portfolio() {
   useEffect(()=>{
     Aos.init({
@@ -40,6 +41,7 @@ let navigate = useNavigate()
         }
       </section>
       <Newslatter/>
+      <Footer/>
     </main>
   );
 }

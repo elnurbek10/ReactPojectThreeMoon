@@ -3,6 +3,7 @@ import Newslatter from '../../../Components/Newslatteer/Newslatter';
 import Navbar from '../../../Components/Navbar/Navbar';
 import Banner from '../../../Components/Banner/Banner';
 import Protected from '../../../assets/Protect.png'
+import Footer from '../../../Components/Footer/Footer';
 function Protect() {
   return (
     <main>
@@ -19,6 +20,7 @@ function Protect() {
       </div>
      </section>
      <Newslatter/> 
+<Footer/>
     </main>
   );
 }

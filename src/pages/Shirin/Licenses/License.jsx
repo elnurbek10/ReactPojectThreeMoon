@@ -2,6 +2,7 @@ import './License.css';
 import Banner from '../../../Components/Banner/Banner';
 import Navbar from '../../../Components/Navbar/Navbar';
 import Newslatter from '../../../Components/Newslatteer/Newslatter';
+import Footer from '../../../Components/Footer/Footer';
 function License() {
   return (
     <main>
@@ -37,7 +38,7 @@ function License() {
      </div>
     </section> 
     <Newslatter/>
-
+<Footer/>
     </main>
   );
 }

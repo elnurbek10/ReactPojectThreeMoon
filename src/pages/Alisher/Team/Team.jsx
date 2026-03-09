@@ -7,6 +7,7 @@ import TeamB from '../../../assets/banner.jpg'
 import Aos from 'aos';
 import { useEffect } from 'react';
 import "aos/dist/aos.css"
+import Footer from '../../../Components/Footer/Footer';
 function Team() {
 useEffect(()=>{
   Aos.init({
@@ -37,6 +38,7 @@ useEffect(()=>{
       </section>
 
       <Newsletter/>
+      <Footer/>
     </main>
   );
 }

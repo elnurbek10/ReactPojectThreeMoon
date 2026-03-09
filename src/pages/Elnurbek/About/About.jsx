@@ -33,8 +33,9 @@ const About = () =>{
 
     return(
         <>
+         <Navbar/>
             <header className="tep">
-            <Navbar/>
+           
                 </header>
             <div className="banana">
                 <h1>About Us</h1>

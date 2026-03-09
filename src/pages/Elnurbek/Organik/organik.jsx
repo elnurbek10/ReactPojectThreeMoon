@@ -140,7 +140,9 @@ function Organik() {
                     </div>
 
                     <button className="loadm">
-                        Load More <span className="arrow">→</span>
+                    <Link to="/shop" className="tug-2">
+                            Load More
+                        </Link><span className="arrow">→</span>
                     </button>
                 </section>
             </div>

@@ -7,6 +7,7 @@ import date from '../../../assets/Date (1).png'
 import { IoMdPerson } from "react-icons/io";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
+import Footer from '../../../Components/Footer/Footer';
 function Blog() {
   let navigate = useNavigate()
   
@@ -34,6 +35,7 @@ function Blog() {
   }
 </section>
      <Newslatter/> 
+     <Footer/>
     </main>
   );
 }

@@ -4,6 +4,7 @@ import Newslatter from '../../../Components/Newslatteer/Newslatter';
 import { Data } from '../../../../data';
 import { useParams } from 'react-router-dom';
 import img18 from '../../../assets/Photo (18).png'
+import Footer from '../../../Components/Footer/Footer';
 function Psingle() {
     let res = useParams()
     let single = Data.cards.find((item)=> item.id == res.id)
@@ -44,6 +45,7 @@ function Psingle() {
 
 </section>
       <Newslatter/>
+      <Footer/>
     </>
   );
 }
